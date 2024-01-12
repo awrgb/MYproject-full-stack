@@ -6,7 +6,7 @@ import Head from "next/head";
 import BlogInner from "../../Components/BlogInner";
 import BlogShare from "../../Components/BlogShare";
 import Comments from "../../Components/Comments";
-import { SWRConfig } from "swr";
+import { SWRConfig } from "swr";   
 import { remarkHeadingId } from "remark-custom-heading-id";
 import { getHeadings } from "../../Lib/GetHeadings";
 import LikeBtn from "../../Components/LikeBtn";
